@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+h1{
+    text-align: center;
+    margin:1rem auto;
+    color: #d13f17;;
+}
+
+.main-form{
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom:1rem;
+}
+
+ul.menu > li{
+    padding: 0.5rem;
+    list-style-type: none;
+}
+
+ul.menu a{
+    color:#fff;
+    text-decoration: none;
+}
+
+ul.menu > li:hover{
+    transform: translateY(-0.1rem);
+}
+
+ul.menu{
+    display: flex;
+    grid-gap:0.5rem;
+    background-color: #3e3e3e;
+    justify-content: space-around;
+}
+
+.balance{
+    color:#2d76c9;
+}
+
+.report-balance-main{
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding:1rem ;
+}
+
+.form-control > input{
+    width: 350px;
+    border-radius: 8px;
+    margin-top:0.5rem;
+    margin-left:0.5rem;
+    height: 35px;
+    border: 1px solid #b3b3b3;
+}
+
+.form-control > input:focus{
+    border:none;
+}
+
+button{
+    margin-top:0.8rem;
+    width: 100%;
+    height: 35px;
+    background-color: #e64519;
+    color:#fff;
+    border:none;
+    border-radius: 0.5rem;
+    font-size: 17px;
+
+    /* transition-property:transform;
+    transition-duration:0.3s;
+    transition-delay:0s;
+    transition-timing-function: ease; */
+}
+
+button:disabled{
+    background-color: #b3b3b3;
+    color:#fff;
+}
+
+.report-main{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.report-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.displayIncome > h3{
+    color:rgb(78, 214, 82);;
+}
+
+.displayExpense > h3{
+    color:#d5451d;
+}
+
+.displayIncome{
+    padding: 1rem;
+    border-right:solid #ecececb3;
+    width: 100%;
+    text-align: center;
+}
+
+.displayExpense{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+/* button:hover{
+    background-color: #d5451d;
+} */
+
+.expense{
+    border-left:solid 0.5rem #d5451d;
+}
+
+.income{
+    border-left:solid 0.5rem rgb(78, 214, 82);
+}
+
+ul#listTransaction{
+    justify-content: center; 
+    display: grid; 
+}
+
+ul#listTransaction > li{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #fff;
+    list-style-type: none;
+    padding: 1rem;
+    text-align: center ;
+    width: 33rem;
+    margin-bottom:1.5rem;
+    justify-content: space-between;
+    display: flex;
+    transition: transform 0.3s 0s ease; 
+    
+}
+
+li:hover{
+    transform: translateY(-5px);
+}
+
+body{
+    background-color: rgb(249, 249, 249);
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
